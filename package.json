@@ -1,0 +1,17 @@
+{
+  "name": "apple-forgot-gmx",
+  "version": "1.0.0",
+  "description": "Apple iForgot password reset with GMX.de IMAP",
+  "scripts": {
+    "setup": "node setup.js",
+    "s1": "node main1.js",
+    "s2": "node main2.js"
+  },
+  "dependencies": {
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.5",
+    "puppeteer": "^21.6.1"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "private": true
+}
